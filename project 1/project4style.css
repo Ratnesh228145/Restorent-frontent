@@ -1,0 +1,89 @@
+
+header{
+    padding: 15px 0;
+    gap: 30px;
+   
+}
+body{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("assets\project4background.png");
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    font-weight: 400px;
+    font-size: 25px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-weight: 500;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+.order-button button{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    padding: 12px 40px;
+    background-color: #ff505f;
+    border: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.section-class{
+   
+    align-items: center;
+    justify-content: center;
+}
+.section-class h1{
+    
+    align-items: center;
+    left: 50px;
+    flex-wrap:  wrap;
+    font-family: "Dela Gothic One", cursive;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 90px;
+    line-height: 80px;
+    /* or 110% */
+    color: #ffc233;
+
+}
+.section-class button{
+    background: #ff505f;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    border: none;
+    padding: 24px 56px;
+    margin-top: 64px;
+    cursor: pointer;
+}
+.bottom-logo{
+   position: absolute;
+   bottom: 40px; 
+   right: 20px;
+
+
+}
